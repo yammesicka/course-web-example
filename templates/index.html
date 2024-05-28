@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>סתם דף</title>
+</head>
+<body>
+  <h1>ברוכות הבאות למחשבון הטוב בעולם</h1>
+  <form action="/" method="POST">
+    <label for="num1">מספר ראשון
+    <input type="number" name="number1" id="number1">
+    </label>
+    <label for="num2">מספר שני
+    <input type="number" name="number2" id="number2">
+    </label>
+    <button type="submit">חשב</button>
+  </form>
+  {% if result %}
+  התוצאה לתרגיל החשבון שלך היא: {{ result }}
+  {% endif %}
+</body>
+</html>

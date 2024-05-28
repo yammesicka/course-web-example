@@ -1,0 +1,34 @@
+li {
+  background-color: black;
+  color: white;
+}
+
+.little {
+  font-size: 10px;
+}
+
+#first-chicken {
+  color: red;
+}
+
+form input {
+  display: block;
+  margin: 10px;
+}
+
+#main-form input {
+  display: block;
+  background-color: lightblue;
+  margin: 60px;
+}
+
+body li {
+  color: red;
+}
+ul > li {
+  color: green;
+}
+
+.exercise {
+  display: block;
+}
